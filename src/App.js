@@ -10,6 +10,7 @@ import jwtDecode from "jwt-decode";
 import { useEffect, useState } from "react";
 
 function App() {
+  console.log("hi");
   let navigate = useNavigate();
 
   const [currentUser, setCurrentUser] = useState(null);
